@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bml>
+	<speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+		<text>
+			<sync id="T0" time="0.105" />We
+			<sync id="T1" time="0.485" />
+			<sync id="T2" time="0.485" />serve
+			<sync id="T3" time="0.81" />
+			<sync id="T4" time="0.81" />nearly
+			<sync id="T5" time="1.275" />
+			<sync id="T6" time="1.275" />six
+			<sync id="T7" time="1.595" />
+			<sync id="T8" time="1.595" />and
+			<sync id="T9" time="1.765" />
+			<sync id="T10" time="1.765" />a
+			<sync id="T11" time="1.875" />
+			<sync id="T12" time="1.875" />half
+			<sync id="T13" time="1.94" />
+			<sync id="T14" time="2.075" />million
+			<sync id="T15" time="2.265" />
+			<sync id="T16" time="2.265" />investors,
+			<sync id="T17" time="3.08" />
+			<sync id="T18" time="3.435" />and
+			<sync id="T19" time="3.765" />
+			<sync id="T20" time="3.765" />we
+			<sync id="T21" time="3.895" />
+			<sync id="T22" time="3.895" />have
+			<sync id="T23" time="4.07" />
+			<sync id="T24" time="4.07" />more
+			<sync id="T25" time="4.23" />
+			<sync id="T26" time="4.49" />offices
+			<sync id="T27" time="4.91" />
+			<sync id="T28" time="4.91" />than
+			<sync id="T29" time="5.37" />
+			<sync id="T30" time="5.505" />almost
+			<sync id="T31" time="5.98" />
+			<sync id="T32" time="5.98" />any
+			<sync id="T33" time="6.425" />
+			<sync id="T34" time="6.425" />other
+			<sync id="T35" time="6.5" />
+			<sync id="T36" time="6.5" />investment
+			<sync id="T37" time="7.155" />
+			<sync id="T38" time="7.155" />firm
+			<sync id="T39" time="7.27" />
+			<sync id="T40" time="7.27" />in
+			<sync id="T41" time="7.425" />
+			<sync id="T42" time="7.425" />America.
+			<sync id="T43" time="7.915" />
+		</text>
+		<description level="1" type="audio/x-wav">
+			<file ref="User_HighLow_Intro_May13_S2" />
+		</description>
+	</speech>
+	<lips viseme="_" articulation="1.0" start="0" ready="0" relax="0.105" end="0.105" />
+	<lips viseme="w" articulation="1.0" start="0.105" ready="0.105" relax="0.19" end="0.19" />
+	<lips viseme="ih" articulation="1.0" start="0.19" ready="0.19" relax="0.485" end="0.485" />
+	<lips viseme="z" articulation="1.0" start="0.485" ready="0.485" relax="0.595" end="0.595" />
+	<lips viseme="er" articulation="1.0" start="0.595" ready="0.595" relax="0.785" end="0.785" />
+	<lips viseme="f" articulation="1.0" start="0.785" ready="0.785" relax="0.81" end="0.81" />
+	<lips viseme="d" articulation="1.0" start="0.81" ready="0.81" relax="0.835" end="0.835" />
+	<lips viseme="ih" articulation="1.0" start="0.835" ready="0.835" relax="1.04" end="1.04" />
+	<lips viseme="r" articulation="1.0" start="1.04" ready="1.04" relax="1.05" end="1.05" />
+	<lips viseme="l" articulation="1.0" start="1.05" ready="1.05" relax="1.075" end="1.075" />
+	<lips viseme="ih" articulation="1.0" start="1.075" ready="1.075" relax="1.275" end="1.275" />
+	<lips viseme="z" articulation="1.0" start="1.275" ready="1.275" relax="1.41" end="1.41" />
+	<lips viseme="ih" articulation="1.0" start="1.41" ready="1.41" relax="1.465" end="1.465" />
+	<lips viseme="kg" articulation="1.0" start="1.465" ready="1.465" relax="1.505" end="1.505" />
+	<lips viseme="kg" articulation="1.0" start="1.505" ready="1.505" relax="1.51" end="1.51" />
+	<lips viseme="z" articulation="1.0" start="1.51" ready="1.51" relax="1.595" end="1.595" />
+	<lips viseme="ah" articulation="1.0" start="1.595" ready="1.595" relax="1.71" end="1.71" />
+	<lips viseme="d" articulation="1.0" start="1.71" ready="1.71" relax="1.72" end="1.72" />
+	<lips viseme="d" articulation="1.0" start="1.72" ready="1.72" relax="1.76" end="1.76" />
+	<lips viseme="d" articulation="1.0" start="1.76" ready="1.76" relax="1.765" end="1.765" />
+	<lips viseme="ah" articulation="1.0" start="1.765" ready="1.765" relax="1.875" end="1.875" />
+	<lips viseme="h" articulation="1.0" start="1.875" ready="1.875" relax="1.89" end="1.89" />
+	<lips viseme="ah" articulation="1.0" start="1.89" ready="1.89" relax="1.935" end="1.935" />
+	<lips viseme="f" articulation="1.0" start="1.935" ready="1.935" relax="1.94" end="1.94" />
+	<lips viseme="_" articulation="1.0" start="1.94" ready="1.94" relax="2.075" end="2.075" />
+	<lips viseme="bmp" articulation="1.0" start="2.075" ready="2.075" relax="2.08" end="2.08" />
+	<lips viseme="ih" articulation="1.0" start="2.08" ready="2.08" relax="2.135" end="2.135" />
+	<lips viseme="l" articulation="1.0" start="2.135" ready="2.135" relax="2.145" end="2.145" />
+	<lips viseme="sh" articulation="1.0" start="2.145" ready="2.145" relax="2.16" end="2.16" />
+	<lips viseme="ah" articulation="1.0" start="2.16" ready="2.16" relax="2.26" end="2.26" />
+	<lips viseme="d" articulation="1.0" start="2.26" ready="2.26" relax="2.265" end="2.265" />
+	<lips viseme="ih" articulation="1.0" start="2.265" ready="2.265" relax="2.495" end="2.495" />
+	<lips viseme="d" articulation="1.0" start="2.495" ready="2.495" relax="2.51" end="2.51" />
+	<lips viseme="f" articulation="1.0" start="2.51" ready="2.51" relax="2.58" end="2.58" />
+	<lips viseme="eh" articulation="1.0" start="2.58" ready="2.58" relax="2.595" end="2.595" />
+	<lips viseme="z" articulation="1.0" start="2.595" ready="2.595" relax="2.72" end="2.72" />
+	<lips viseme="d" articulation="1.0" start="2.72" ready="2.72" relax="2.75" end="2.75" />
+	<lips viseme="th" articulation="1.0" start="2.75" ready="2.75" relax="2.77" end="2.77" />
+	<lips viseme="er" articulation="1.0" start="2.77" ready="2.77" relax="2.95" end="2.95" />
+	<lips viseme="z" articulation="1.0" start="2.95" ready="2.95" relax="3.08" end="3.08" />
+	<lips viseme="_" articulation="1.0" start="3.08" ready="3.08" relax="3.435" end="3.435" />
+	<lips viseme="ah" articulation="1.0" start="3.435" ready="3.435" relax="3.665" end="3.665" />
+	<lips viseme="d" articulation="1.0" start="3.665" ready="3.665" relax="3.74" end="3.74" />
+	<lips viseme="d" articulation="1.0" start="3.74" ready="3.74" relax="3.76" end="3.76" />
+	<lips viseme="d" articulation="1.0" start="3.76" ready="3.76" relax="3.765" end="3.765" />
+	<lips viseme="w" articulation="1.0" start="3.765" ready="3.765" relax="3.78" end="3.78" />
+	<lips viseme="ih" articulation="1.0" start="3.78" ready="3.78" relax="3.895" end="3.895" />
+	<lips viseme="h" articulation="1.0" start="3.895" ready="3.895" relax="3.955" end="3.955" />
+	<lips viseme="ah" articulation="1.0" start="3.955" ready="3.955" relax="4.035" end="4.035" />
+	<lips viseme="f" articulation="1.0" start="4.035" ready="4.035" relax="4.07" end="4.07" />
+	<lips viseme="bmp" articulation="1.0" start="4.07" ready="4.07" relax="4.15" end="4.15" />
+	<lips viseme="r" articulation="1.0" start="4.18" ready="4.18" relax="4.23" end="4.23" />
+	<lips viseme="f" articulation="1.0" start="4.49" ready="4.49" relax="4.495" end="4.495" />
+	<lips viseme="ah" articulation="1.0" start="4.495" ready="4.495" relax="4.51" end="4.51" />
+	<lips viseme="z" articulation="1.0" start="4.51" ready="4.51" relax="4.665" end="4.665" />
+	<lips viseme="ah" articulation="1.0" start="4.665" ready="4.665" relax="4.82" end="4.82" />
+	<lips viseme="z" articulation="1.0" start="4.82" ready="4.82" relax="4.91" end="4.91" />
+	<lips viseme="th" articulation="1.0" start="4.91" ready="4.91" relax="4.915" end="4.915" />
+	<lips viseme="ah" articulation="1.0" start="4.915" ready="4.915" relax="5.195" end="5.195" />
+	<lips viseme="d" articulation="1.0" start="5.195" ready="5.195" relax="5.37" end="5.37" />
+	<lips viseme="_" articulation="1.0" start="5.37" ready="5.37" relax="5.44" end="5.44" />
+	<lips viseme="l" articulation="1.0" start="5.505" ready="5.505" relax="5.515" end="5.515" />
+	<lips viseme="bmp" articulation="1.0" start="5.515" ready="5.515" relax="5.575" end="5.575" />
+	<lips viseme="ow" articulation="1.0" start="5.575" ready="5.575" relax="5.68" end="5.68" />
+	<lips viseme="z" articulation="1.0" start="5.68" ready="5.68" relax="5.81" end="5.81" />
+	<lips viseme="d" articulation="1.0" start="5.81" ready="5.81" relax="5.9" end="5.9" />
+	<lips viseme="th" articulation="1.0" start="5.9" ready="5.9" relax="5.98" end="5.98" />
+	<lips viseme="eh" articulation="1.0" start="5.98" ready="5.98" relax="6.255" end="6.255" />
+	<lips viseme="d" articulation="1.0" start="6.255" ready="6.255" relax="6.295" end="6.295" />
+	<lips viseme="ih" articulation="1.0" start="6.295" ready="6.295" relax="6.425" end="6.425" />
+	<lips viseme="ah" articulation="1.0" start="6.425" ready="6.425" relax="6.465" end="6.465" />
+	<lips viseme="th" articulation="1.0" start="6.465" ready="6.465" relax="6.47" end="6.47" />
+	<lips viseme="er" articulation="1.0" start="6.47" ready="6.47" relax="6.5" end="6.5" />
+	<lips viseme="ih" articulation="1.0" start="6.5" ready="6.5" relax="6.67" end="6.67" />
+	<lips viseme="d" articulation="1.0" start="6.67" ready="6.67" relax="6.695" end="6.695" />
+	<lips viseme="f" articulation="1.0" start="6.695" ready="6.695" relax="6.7" end="6.7" />
+	<lips viseme="eh" articulation="1.0" start="6.7" ready="6.7" relax="6.785" end="6.785" />
+	<lips viseme="z" articulation="1.0" start="6.785" ready="6.785" relax="6.86" end="6.86" />
+	<lips viseme="d" articulation="1.0" start="6.86" ready="6.86" relax="6.885" end="6.885" />
+	<lips viseme="th" articulation="1.0" start="6.885" ready="6.885" relax="6.89" end="6.89" />
+	<lips viseme="bmp" articulation="1.0" start="6.89" ready="6.89" relax="6.895" end="6.895" />
+	<lips viseme="ah" articulation="1.0" start="6.895" ready="6.895" relax="6.975" end="6.975" />
+	<lips viseme="d" articulation="1.0" start="6.975" ready="6.975" relax="7.035" end="7.035" />
+	<lips viseme="d" articulation="1.0" start="7.035" ready="7.035" relax="7.15" end="7.15" />
+	<lips viseme="th" articulation="1.0" start="7.15" ready="7.15" relax="7.155" end="7.155" />
+	<lips viseme="f" articulation="1.0" start="7.155" ready="7.155" relax="7.16" end="7.16" />
+	<lips viseme="er" articulation="1.0" start="7.16" ready="7.16" relax="7.26" end="7.26" />
+	<lips viseme="bmp" articulation="1.0" start="7.26" ready="7.26" relax="7.27" end="7.27" />
+	<lips viseme="ih" articulation="1.0" start="7.27" ready="7.27" relax="7.36" end="7.36" />
+	<lips viseme="d" articulation="1.0" start="7.36" ready="7.36" relax="7.425" end="7.425" />
+	<lips viseme="ah" articulation="1.0" start="7.425" ready="7.425" relax="7.54" end="7.54" />
+	<lips viseme="bmp" articulation="1.0" start="7.54" ready="7.54" relax="7.59" end="7.59" />
+	<lips viseme="eh" articulation="1.0" start="7.59" ready="7.59" relax="7.64" end="7.64" />
+	<lips viseme="r" articulation="1.0" start="7.64" ready="7.64" relax="7.735" end="7.735" />
+	<lips viseme="ah" articulation="1.0" start="7.735" ready="7.735" relax="7.78" end="7.78" />
+	<lips viseme="kg" articulation="1.0" start="7.78" ready="7.78" relax="7.83" end="7.83" />
+	<lips viseme="kg" articulation="1.0" start="7.83" ready="7.83" relax="7.88" end="7.88" />
+	<lips viseme="ah" articulation="1.0" start="7.88" ready="7.88" relax="7.915" end="7.915" />
+	<lips viseme="_" articulation="1.0" start="7.915" ready="7.915" relax="8.175" end="8.175" />
+	<curves>
+	</curves>
+</bml>
