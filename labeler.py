@@ -7,7 +7,7 @@ SENTIMENT_DICT = '/Users/juncai/Dropbox/PlaIT Lab/TRUST/Sentiment_Analysis/repro
 
 HIGHHIGH = ('User_HighHigh_Intro_May13_S', 6)
 HIGHLOW = ('User_HighLow_Intro_May13_S', 6)
-LOWHIGH = ('User_LowHigh_Intro_', 5)
+LOWHIGH = ('User_LowHigh_Intro_S', 5)
 LOWLOW = ('User_LowLow_Intro_New_S', 7)
 
 PITCH_SUFFIX = '_pitch'
@@ -19,7 +19,7 @@ BML_SUFFIX = '.bml'
 
 def label_speech_text():
     result_list = []
-    personality_info = LOWLOW
+    personality_info = LOWHIGH
     sent_dict = Ut.build_sentiment_dict(SENTIMENT_DICT)
     for i in range(int(personality_info[1])):
         ind = i + 1

@@ -51,18 +51,22 @@ def build_sentence_info(timestamps, sentence, sent_dict):
     # print len(words)
     # print len(timestamps)
     words.remove('')
+    words_with_punct = sentence.split()
 
     for ind, word in enumerate(words):
         if word in sent_dict:
             c_sentiment = sent_dict[word]
         else:
             c_sentiment = 0
+        punct = ''
+        if words_with_punct[ind] != word:
+            punct = words_with_punct[ind][-1]
         info_list.append((word,
                           timestamps[ind * 2],
                           timestamps[ind * 2 + 1],
                           len(h_en.syllables(unicode(word))),
                           c_sentiment,
-                          ''))
+                          punct))
     return info_list
 
 
