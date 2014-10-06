@@ -50,9 +50,9 @@ for i in range(6):
 # for ind, word in enumerate(words):
 #     print word, ind
 
-# h_en = Hyphenator('en_US')
+h_en = Hyphenator('en_US')
 #
-# print len(h_en.syllables(unicode('hello')))
+print len(h_en.syllables(unicode(u'beautiful')))
 #
 # alist = [1, 2, 4, 2, 5, 6, 9.1]
 # barray = np.array(alist)

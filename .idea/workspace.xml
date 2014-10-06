@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27fb9642-c859-47d0-a2a3-b0ce347f0420" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text2num.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test.py" afterPath="$PROJECT_DIR$/Test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Utilities.py" afterPath="$PROJECT_DIR$/Utilities.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labeler.py" afterPath="$PROJECT_DIR$/labeler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpeechTextLabeler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +29,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="labeler.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="labeler.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/labeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
+            <state line="40" column="20" selection-start="1336" selection-end="1336" vertical-scroll-proportion="1.4532872" vertical-offset="0" max-vertical-offset="1953">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utilities.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Utilities.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Utilities.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="27" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.6723164" vertical-offset="819" max-vertical-offset="3486">
+            <state line="102" column="24" selection-start="3099" selection-end="3099" vertical-scroll-proportion="-11.923077" vertical-offset="1748" max-vertical-offset="5103">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="44" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1449">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text2num.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text2num.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="35" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="2478">
               <folding />
             </state>
           </provider>
@@ -57,8 +78,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/labeler.py" />
+        <option value="$PROJECT_DIR$/text2num.py" />
+        <option value="$PROJECT_DIR$/Test.py" />
+        <option value="$PROJECT_DIR$/XMLWriter.py" />
         <option value="$PROJECT_DIR$/Utilities.py" />
+        <option value="$PROJECT_DIR$/labeler.py" />
       </list>
     </option>
   </component>
@@ -73,7 +97,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -133,6 +157,42 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SpeechTextLabeler" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labeler.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="text2num" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SpeechTextLabeler" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text2num.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SpeechTextLabeler" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -259,12 +319,16 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.labeler" />
+      <item index="1" class="java.lang.String" itemvalue="Python.text2num" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Test" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Python.labeler" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.text2num" />
       </list>
     </recent_temporary>
   </component>
@@ -289,15 +353,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2743259" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -319,6 +383,76 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/labeler.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="39" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1239">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="35" selection-start="6543" selection-end="6543" vertical-scroll-proportion="0.0" vertical-offset="3370" max-vertical-offset="4662">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="44" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1449">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text2num.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="35" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="2478">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="31" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="3696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="44" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1449">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text2num.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="35" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="2478">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="27" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0" vertical-offset="1239" max-vertical-offset="3486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labeler.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="19" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="924">
           <folding />
         </state>
@@ -331,21 +465,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test.py">
+    <entry file="file://$PROJECT_DIR$/User_HighHigh_Intro_May13_S1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labeler.py">
+    <entry file="file://$PROJECT_DIR$/User_HighHigh_Intro_May13_S2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="531" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="44" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1449">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text2num.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="35" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="2478">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User_HighLow_Intro_May13_S1_int">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="3711" max-vertical-offset="4536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User_HighLow_Intro_May13_S1_pitch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="256" selection-end="256" vertical-scroll-proportion="0.28" vertical-offset="0" max-vertical-offset="4914">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Utilities.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="27" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.6723164" vertical-offset="819" max-vertical-offset="3486">
+        <state line="102" column="24" selection-start="3099" selection-end="3099" vertical-scroll-proportion="-11.923077" vertical-offset="1748" max-vertical-offset="5103">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="20" selection-start="1336" selection-end="1336" vertical-scroll-proportion="1.4532872" vertical-offset="0" max-vertical-offset="1953">
           <folding />
         </state>
       </provider>

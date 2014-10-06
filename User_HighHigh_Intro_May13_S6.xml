@@ -1,0 +1,20 @@
+<sentence>
+	<word duration="0.255" emphasis="false" end="0.345" start="0.09" syllables="0" text="We"/>
+	<word duration="0.465" emphasis="true" end="0.81" speed="2.15053763441" start="0.345" syllables="1" text="have"/>
+	<word duration="0.285" emphasis="false" end="1.095" speed="3.50877192982" start="0.81" syllables="1" text="more"/>
+	<word duration="0.16" emphasis="false" end="1.255" speed="6.25" start="1.095" syllables="1" text="than"/>
+	<word duration="0.16" emphasis="false" end="1.415" special="11" speed="6.25" start="1.255" syllables="1" text="eleven"/>
+	<word duration="0.44" emphasis="true" end="1.86" speed="4.54545454545" start="1.42" syllables="2" text="thousands"/>
+	<word duration="0.41" emphasis="false" end="2.27" speed="7.31707317073" start="1.86" syllables="3" text="financial"/>
+	<word duration="0.63" emphasis="true" end="2.9" speed="4.7619047619" start="2.27" syllables="3" text="advisors"/>
+	<word duration="0.56" emphasis="false" end="3.615" speed="3.57142857143" start="3.055" syllables="2" text="located"/>
+	<word duration="0.09" emphasis="false" end="3.75" start="3.66" syllables="0" text="in"/>
+	<word duration="0.2" emphasis="false" end="3.95" speed="5.0" start="3.75" syllables="1" text="more"/>
+	<word duration="0.185" emphasis="false" end="4.135" speed="5.40540540541" start="3.95" syllables="1" text="than"/>
+	<word duration="0.33" emphasis="false" end="4.465" special="10" start="4.135" syllables="0" text="ten"/>
+	<word duration="0.335" emphasis="false" end="4.83" speed="5.97014925373" start="4.495" syllables="2" text="thousands"/>
+	<word duration="0.4" emphasis="true" end="5.405" speed="5.0" start="5.005" syllables="2" text="offices"/>
+	<word duration="0.26" emphasis="true" end="5.665" speed="3.84615384615" start="5.405" syllables="1" text="around"/>
+	<word duration="0.02" emphasis="true" end="5.685" start="5.665" syllables="0" text="the"/>
+	<word duration="0.44" emphasis="true" end="6.125" punctuation="." speed="4.54545454545" start="5.685" syllables="2" text="country"/>
+</sentence>
