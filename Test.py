@@ -1,6 +1,6 @@
 __author__ = 'juncai'
 
-from Utilities import get_time_stamp, build_sentiment_dict, read_pitches, read_intensities, build_sentence_info
+from utilities import get_time_stamp, build_sentiment_dict, read_pitches, read_intensities, build_sentence_info
 import re
 from hyphen import Hyphenator
 import numpy as np
