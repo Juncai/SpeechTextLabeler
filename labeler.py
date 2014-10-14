@@ -127,18 +127,43 @@ def generate_source_data(sen_list):
 
 
 def generate_source_data_processed(sen_list):
+    # normalize the data
+
     data = []
-    # print len(sen_list)
     for s in sen_list:
+        max_pitch = 0
+        min_pitch = 100000000
+        max_intensity = 0
+        min_intensity = 100000000
+        max_speed = 0
+        min_speed = 100000000
+        for w in s.words:
+            for p in w.pitch_list:
+                if (p / s.pitch_mean) > max_pitch:
+                    max_pitch = (p / s.pitch_mean)
+                if (p / s.pitch_mean) < min_pitch:
+                    min_pitch = (p / s.pitch_mean)
+            for inten in w.intensity_list:
+                if (inten / s.intensity_mean) > max_intensity:
+                    max_intensity = (inten / s.intensity_mean)
+                if (inten / s.intensity_mean) < min_intensity:
+                    min_intensity = (inten / s.intensity_mean)
+            if w.speed > max_speed:
+                max_speed = w.speed
+            if w.speed < min_speed:
+                min_speed = w.speed
+        pitch_range = max_pitch - min_pitch
+        intensity_range = max_intensity - min_intensity
+        speed_range = max_speed - min_speed
         for w in s.words:
             word_data = []
             # word_data.append(s.pitch_mean)
             # word_data.append(s.pitch_std)
             # word_data.append(s.intensity_mean)
             # word_data.append(s.intensity_std)
-            word_data.append(w.pitch_mean / s.pitch_mean)
-            word_data.append(w.intensity_mean / s.intensity_mean)
-            word_data.append(w.speed)
+            word_data.append(((w.pitch_mean / s.pitch_mean) - min_pitch) / pitch_range)
+            word_data.append(((w.intensity_mean / s.intensity_mean) - min_intensity) / intensity_range)
+            word_data.append((w.speed - min_speed) / speed_range)
             data.append(word_data)
     return data
 
@@ -160,10 +185,10 @@ def generate_target(path):
 
 
 def generate_learning_data():
-    l_data = LearningData(generate_source_data(generate_sentence_data()),
-                          generate_target(MANNUAL_LABELED_TEXT))
-    # l_data = LearningData(generate_source_data_processed(generate_sentence_data()),
+    # l_data = LearningData(generate_source_data(generate_sentence_data()),
     #                       generate_target(MANNUAL_LABELED_TEXT))
+    l_data = LearningData(generate_source_data_processed(generate_sentence_data()),
+                          generate_target(MANNUAL_LABELED_TEXT))
     return l_data
 
 

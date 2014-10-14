@@ -1,0 +1,155 @@
+<speech>
+	<sentence duration="2.0" title="User_LowLow_Intro_New_S1">
+		<word behavior_intensity="0" behavior_type="" duration="0.25" end="0.68" punctuation="," start="0.43">Uh</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.4" end="1.08" start="0.68">shall</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.065" end="1.145" start="1.08">we</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.38" end="1.525" punctuation="?" start="1.145">start</word>
+	</sentence>
+	<sentence duration="10.121625" title="User_LowLow_Intro_New_S2">
+		<word behavior_intensity="0" behavior_type="" duration="0.06" end="0.96" start="0.9">We</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.115" end="1.075" start="0.96">were</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.42" end="1.495" start="1.075">started</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.14" end="1.635" start="1.495">in</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.05" end="1.685" start="1.635">the</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.17" end="1.855" punctuation="," start="1.685">1950</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.055" end="1.91" start="1.855">our</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.19" end="2.1" start="1.91">founder</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.48" end="2.58" start="2.1">Alfonse</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.165" end="3.29" start="3.125">Perrigreen</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.355" end="3.765" start="3.41">began</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.53" end="4.295" start="3.765">with</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.47" end="4.795" special="2" start="4.325">two</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.46" end="5.255" punctuation="." start="4.795">questions</word>
+	</sentence>
+	<sentence duration="8.7088125" title="User_LowLow_Intro_New_S3">
+		<word behavior_intensity="0" behavior_type="" duration="0.085" end="0.51" start="0.425">What</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.24" end="0.75" start="0.51">makes</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.085" end="0.835" start="0.75">a</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.595" end="1.43" start="0.835">stock</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.365" end="1.915" start="1.55">become</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.065" end="1.98" start="1.915">a</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.305" end="2.285" sentiment="positive" start="1.98">great</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.14" end="2.425" punctuation="?" start="2.285">stock</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.315" end="2.745" start="2.43">What</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.31" end="3.87" start="3.56">must</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.19" end="4.06" start="3.87">be</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.085" end="4.145" start="4.06">in</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.23" end="4.375" start="4.145">place</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.325" end="4.7" start="4.375">before</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.185" end="4.885" start="4.7">I</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.15" end="5.035" punctuation="?" start="4.885">buy</word>
+	</sentence>
+	<sentence duration="14.0" title="User_LowLow_Intro_New_S4">
+		<word behavior_intensity="0" behavior_type="" duration="0.26" end="1.4" start="1.14">To</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.305" end="1.705" start="1.4">find</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.065" end="1.77" start="1.705">the</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.525" end="2.295" punctuation="," start="1.77">answers</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.065" end="2.565" start="2.5">he</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.795" end="3.425" start="2.63">began</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.43" end="3.855" start="3.425">studying</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.22" end="4.075" sentiment="positive" start="3.855">great</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.41" end="4.485" start="4.075">stocks</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.085" end="4.57" start="4.485">of</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.05" end="4.68" start="4.63">the</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.14" end="5.39" punctuation="," start="5.25">past</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.33" end="6.26" start="5.93">looking</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.15" end="6.41" start="6.26">for</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.5" end="6.91" start="6.41">common</word>
+		<word behavior_intensity="0" behavior_type="" duration="1.1" end="8.01" punctuation="." start="6.91">characteristics</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.115" end="8.74" start="8.625">He</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.4" end="9.175" start="8.775">found</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.27" end="9.445" special="7" start="9.175">seven</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.505" end="10.005" start="9.5">factors</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.15" end="10.155" start="10.005">that</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.35" end="10.505" start="10.155">occurred</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.91" end="11.415" punctuation="," start="10.505">repeatedly</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.195" end="11.91" start="11.715">year</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.23" end="12.14" start="11.91">after</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.34" end="12.48" punctuation="," start="12.14">year</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.305" end="12.785" start="12.48">decade</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.22" end="13.01" start="12.79">after</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.605" end="13.615" punctuation="." start="13.01">decade</word>
+	</sentence>
+	<sentence duration="8.4245" title="User_LowLow_Intro_New_S5">
+		<word behavior_intensity="0" behavior_type="" duration="0.42" end="0.84" start="0.42">He</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.165" end="1.005" start="0.84">used</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.125" end="1.13" start="1.005">that</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.525" end="1.655" start="1.13">discovery</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.15" end="1.805" start="1.655">to</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.31" end="2.115" start="1.805">develop</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.105" end="2.22" start="2.115">an</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.645" end="2.89" start="2.245">investing</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.99" end="3.88" punctuation="," start="2.89">discipline</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.39" end="4.27" start="3.88">based</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.135" end="4.515" start="4.38">not</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.035" end="4.55" start="4.515">on</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.475" end="5.025" punctuation="," start="4.55">hunches</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.48" end="5.505" start="5.025">but</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.65" end="6.155" start="5.505">on</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.515" end="6.67" start="6.155">historical</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.21" end="7.0" punctuation="." start="6.79">fact</word>
+	</sentence>
+	<sentence duration="7.5930625" title="User_LowLow_Intro_New_S6">
+		<word behavior_intensity="0" behavior_type="" duration="0.375" end="0.505" start="0.13">Alfonse</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.47" end="0.975" start="0.505">Perrigreen</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.24" end="1.215" start="0.975">used</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.145" end="1.36" start="1.215">their</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.545" end="1.905" start="1.36">approach</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.18" end="2.085" start="1.905">to</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.5" end="2.585" sentiment="positive" start="2.085">achieve</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.59" end="3.175" sentiment="positive" start="2.585">remarkable</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.475" end="3.675" sentiment="positive" start="3.2">success</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.24" end="3.955" start="3.715">in</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.045" end="4.0" start="3.955">the</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.59" end="4.59" punctuation="." start="4.0">market</word>
+	</sentence>
+	<sentence duration="18.352" title="User_LowLow_Intro_New_S7">
+		<word behavior_intensity="0" behavior_type="" duration="0.185" end="0.185" start="0.0">By</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.325" end="0.51" start="0.185">the</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.255" end="0.765" start="0.51">time</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.065" end="0.83" start="0.765">he</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.035" end="0.865" start="0.83">turned</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.53" end="1.395" punctuation="," special="40" start="0.865">forty</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.245" end="1.64" start="1.395">he</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.13" end="1.77" start="1.64">had</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.375" end="2.22" start="1.845">purchased</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.04" end="2.26" start="2.22">a</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.22" end="2.48" start="2.26">seat</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.2" end="2.68" start="2.48">on</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.05" end="2.73" start="2.68">the</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.035" end="2.765" start="2.73">New</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.125" end="2.89" start="2.765">York</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.32" end="3.21" start="2.89">Stock</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.785" end="3.995" start="3.21">Exchange</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.115" end="4.11" start="3.995">and</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.145" end="4.255" start="4.11">had</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.305" end="4.63" start="4.325">founded</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.435" end="5.065" start="4.63">Perrigreen</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.235" end="5.3" start="5.065">and</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.425" end="5.725" start="5.3">Foley</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.79" end="6.79" start="6.0">Associates</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.04" end="6.83" start="6.79">that</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.115" end="7.605" start="7.49">now</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.215" end="7.82" start="7.605">serves</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.325" end="8.145" start="7.82">over</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.435" end="8.58" special="6" start="8.145">six</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.485" end="9.065" special="0" start="8.58">hundred</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.065" end="9.435" start="9.37">and</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.345" end="9.78" special="50" start="9.435">fifty</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.15" end="9.93" start="9.78">of</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.055" end="9.985" start="9.93">the</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.295" end="10.28" start="9.985">world's</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.32" end="10.6" start="10.28">largest</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.295" end="10.895" start="10.6">mutual</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.325" end="11.22" start="10.895">funds</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.315" end="11.535" start="11.22">and</word>
+		<word behavior_intensity="0" behavior_type="" duration="1.025" end="12.56" start="11.535">institutional</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.735" end="13.295" punctuation="." start="12.56">investors</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.26" end="13.605" start="13.345">And</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.945" end="14.55" start="13.605">anyone</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.22" end="14.77" start="14.55">can</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.145" end="14.915" start="14.77">use</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.515" end="15.43" start="14.915">it</word>
+		<word behavior_intensity="0" behavior_type="" duration="0.635" end="16.09" punctuation="." sentiment="positive" start="15.455">successfully</word>
+	</sentence>
+</speech>

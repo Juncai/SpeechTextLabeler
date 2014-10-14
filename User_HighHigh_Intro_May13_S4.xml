@@ -1,1 +1,13 @@
-<sentence duration="3.694875" title="User_HighHigh_Intro_May13_S4"><word duration="0.15" emphasis="false" end="0.195" start="0.045" syllables="0" text="We" /><word duration="0.12" emphasis="false" end="0.315" start="0.195" syllables="0" text="are" /><word duration="0.035" emphasis="false" end="0.35" start="0.315" syllables="0" text="a" /><word duration="0.145" emphasis="true" end="0.62" speed="6.89655172414" start="0.475" syllables="1" text="full" /><word duration="0.47" emphasis="false" end="1.09" speed="4.25531914894" start="0.62" syllables="2" text="service" /><word duration="0.47" emphasis="false" end="1.565" speed="6.3829787234" start="1.095" syllables="3" text="brokerage" /><word duration="0.285" emphasis="false" end="1.915" speed="3.50877192982" start="1.63" syllables="1" text="firm" /><word duration="0.47" emphasis="true" end="2.57" start="2.1" syllables="0" text="and" /><word duration="0.045" emphasis="false" end="2.615" start="2.57" syllables="0" text="a" /><word duration="0.325" emphasis="false" end="2.94" speed="6.15384615385" start="2.615" syllables="2" text="private" /><word duration="0.73" emphasis="false" end="3.67" punctuation="." speed="4.1095890411" start="2.94" syllables="3" text="partnership" /></sentence>
+<sentence duration="3.694875" title="User_HighHigh_Intro_May13_S4">
+	<word duration="0.15" emphasis="false" end="0.195" start="0.045" syllables="0" text="We"/>
+	<word duration="0.12" emphasis="false" end="0.315" start="0.195" syllables="0" text="are"/>
+	<word duration="0.035" emphasis="false" end="0.35" start="0.315" syllables="0" text="a"/>
+	<word duration="0.145" emphasis="true" end="0.62" speed="6.89655172414" start="0.475" syllables="1" text="full"/>
+	<word duration="0.47" emphasis="false" end="1.09" speed="4.25531914894" start="0.62" syllables="2" text="service"/>
+	<word duration="0.47" emphasis="false" end="1.565" speed="6.3829787234" start="1.095" syllables="3" text="brokerage"/>
+	<word duration="0.285" emphasis="false" end="1.915" speed="3.50877192982" start="1.63" syllables="1" text="firm"/>
+	<word duration="0.47" emphasis="true" end="2.57" start="2.1" syllables="0" text="and"/>
+	<word duration="0.045" emphasis="false" end="2.615" start="2.57" syllables="0" text="a"/>
+	<word duration="0.325" emphasis="false" end="2.94" speed="6.15384615385" start="2.615" syllables="2" text="private"/>
+	<word duration="0.73" emphasis="false" end="3.67" punctuation="." speed="4.1095890411" start="2.94" syllables="3" text="partnership"/>
+</sentence>

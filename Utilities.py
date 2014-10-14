@@ -5,14 +5,15 @@ from hyphen import Hyphenator
 import re
 import numpy as np
 import text2num as t2n
-from data_classes import SentenceData, WordData
+from data_classes import SentenceData, WordData, LearningData
 
 # constants
 STD_COEF = 1.0
 ATTRIB_TEXT = "text"
 ATTRIB_START = "start"
 ATTRIB_END = "end"
-ATTRIB_EMPH = "emphasis"
+ATTRIB_BTYPE = "behavior_type"
+ATTRIB_BINTENSITY = "behavior_intensity"
 ATTRIB_SENTIMENT = "sentiment"
 ATTRIB_SPE = "special"
 ATTRIB_SYLLABLES = "syllables"
@@ -362,36 +363,76 @@ def label_the_sentence_to_et(sentence_data, int_path, pitch_path):
     return build_xml_tree(sentence_data)
 
 
-def build_xml_tree(sentence_data):
+def build_xml_tree(element_list):
+    speech = ET.Element('speech')
+    for e in element_list:
+        speech.append(e)
+    return ET.ElementTree(speech)
+
+
+def build_xml_element_for_sentence(sentence_data):
     sentence = ET.Element("sentence")
     sentence.set(ATTRIB_DURATION, str(sentence_data.duration))
     sentence.set("title", sentence_data.title)
 
     for ind, w in enumerate(sentence_data.words):
         word = ET.SubElement(sentence, "word")
-        word.text(ATTRIB_TEXT, w.text)
+        word.text = w.text
         word.set(ATTRIB_START, str(w.start_time))
         word.set(ATTRIB_END, str(w.end_time))
-
-        if w.is_emphasis:
-            word.set(ATTRIB_EMPH, "true")
-        else:
-            word.set(ATTRIB_EMPH, "false")
+        word.set(ATTRIB_BTYPE, w.behavior_type)
+        word.set(ATTRIB_BINTENSITY, str(w.behavior_intensity))
         if w.sentiment == 1:
             word.set(ATTRIB_SENTIMENT, POS_SENTIMENT)
         if w.sentiment == -1:
             word.set(ATTRIB_SENTIMENT, NEG_SENTIMENT)
         if len(w.special) != 0:
             word.set(ATTRIB_SPE, w.special)
-        word.set(ATTRIB_SYLLABLES, str(w.num_syllables))
+        # word.set(ATTRIB_SYLLABLES, str(w.num_syllables))
         word.set(ATTRIB_DURATION, str(w.end_time - w.start_time))
-        if w.num_syllables > 0:
-            word.set(ATTRIB_SPEED, str(w.num_syllables / (w.end_time - w.start_time)))
+        # if w.num_syllables > 0:
+        #     # word.set(ATTRIB_SPEED, str(w.num_syllables / (w.end_time - w.start_time)))
+        #     word.set(ATTRIB_SPEED, str("{0:.2f}".format(w.num_syllables / (w.end_time - w.start_time))))
         if len(w.punct_after) > 0:
             word.set(ATTRIB_PUNCT, w.punct_after)
-    return ET.ElementTree(sentence)
+    return sentence
+
+
+def create_balanced_training_data(learning_data, value1, value2):
+    '''
+    Return a balanced learning data from the given one. Check if the given learning data is balanced, if
+    :param learning_data: the original training data
+    :return: a balanced learning data from the given one
+    '''
+    positive_target = []
+    for i, output in enumerate(learning_data.target):
+        if output == value1:
+            positive_target.append(i)
+
+    difference = (2 * len(positive_target)) - len(learning_data.target)
+    # print difference
+    if difference == 0:
+        return learning_data
+    new_target = []
+    new_data = []
+    ignore_count = 0
+    for i, t in enumerate(learning_data.target):
+        if ignore_count < abs(difference):
+            if difference > 0 and t == value1:
+                ignore_count += 1
+                continue
+            elif t == value2:
+                ignore_count += 1
+                continue
+        new_target.append(t)
+        new_data.append(learning_data.data[i])
+    new_learning_data = LearningData(new_data, new_target)
+    return new_learning_data
+
 
 # if __name__ == '__main__':
+    # l_data = LearningData([1, 2, 3, 4, 5, 6, 7], [0, 1, 0, 1, 0, 1, 0])
+    # print create_balanced_training_data(l_data, 1, 0).target
 #     sentiment_dict_path = '/Users/juncai/Dropbox/PlaIT Lab/TRUST/Sentiment_Analysis/reproduce/pitt_lexicon_reproduce.txt'
 #
 #     bml_path = 'User_HighHigh_Intro_May13_S3.bml'

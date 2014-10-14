@@ -49,6 +49,8 @@ class WordData(object):
     intensity_list = []
     intensity_mean = 0
     acoustic_data_filled = False
+    behavior_type = ''
+    behavior_intensity = 0
     is_emphasis = False
 
     def __init__(self, text, start, end, sentiment, syllables, punct, special):
